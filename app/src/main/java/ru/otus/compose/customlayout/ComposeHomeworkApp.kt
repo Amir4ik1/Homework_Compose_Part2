@@ -13,7 +13,7 @@ import androidx.compose.ui.unit.dp
 
 @Composable
 fun ComposeHomeworkApp() {
-    CustomLayoutHW(
+    CustomGrid(
         columns = 3,
         modifier = Modifier.systemBarsPadding()
             .padding(14.dp)
